@@ -3,3 +3,5 @@
 This is Reamdme for buggy code.
 
 jeste neco pridavam 
+
+jeste jednou
