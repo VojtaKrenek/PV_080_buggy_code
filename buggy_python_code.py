@@ -28,8 +28,8 @@ def fetch_website(urllib_version, url):
     exec(f"import urllib{urllib_version} as urllib", globals())
     # Fetch and print the requested URL
  
-    try: 
-        http = urllib.PoolManager()
+    try:
+        http = urllib_version.PoolManager()
         r = http.request('GET', url)
     except:
         print('Exception')
